@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello from Docker via GitHub Actions on Main!');
+  res.send('Hello from Docker via GitHub Actions on Main with Live demo!');
 });
 
 app.listen(8080, () => {
